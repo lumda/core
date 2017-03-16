@@ -1,0 +1,22 @@
+{
+  "name": "atomic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/webpack-dev-server",
+    "fix": "./node_modules/.bin/eslint src/index.js --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-eslint": "^7.1.1",
+    "eslint": "^3.17.1",
+    "eslint-plugin-import": "^2.2.0",
+    "preact": "^7.2.0",
+    "ramda": "^0.23.0",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.1"
+  }
+}
